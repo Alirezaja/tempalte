@@ -1,0 +1,15 @@
+name: imcc
+description: Website Imcc Theme
+type: theme
+core: 8.x
+libraries:
+ - imcc/global-css
+ - imcc/global-js
+
+regions:
+  navigation:  'Menu Navigation'
+  slide_show:  'Slide Show'
+  latest_news: 'Latest News'
+  Activities:  'Activities'
+  Who_We_Are:  'Who We Are'
+  footer:      'Footer'

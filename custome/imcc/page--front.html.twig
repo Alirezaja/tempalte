@@ -1,0 +1,133 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <link rel="icon" type="image/png" href="/themes/custome/imcc/img/logofav.png">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+    <meta name="viewport" content="width=device-width, initial-scale = 1.0, maximum-scale=1.0, user-scalable=no" />
+
+    <title>IMCC | Iran Mall Commercial Company | Homepage</title>
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
+    <!--     Fonts and icons     -->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons" />
+    <link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700" />
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/latest/css/font-awesome.min.css" />
+    <link href="https://fonts.googleapis.com/css?family=Ubuntu" rel="stylesheet">
+
+</head>
+
+<body class="index-page">
+
+
+{{ page.navigation }}
+
+<div class="wrapper">
+
+
+
+
+
+    <div class="header header-filter">
+        <!-- slider start -->
+        <div class="anim-slider" data-width="full" data-height="full">
+            <div class="slide-container">
+
+                {#slide 1 and slide 2---- be sorate ista#}
+
+                <div class="bg-center-center">
+                    <div class="el left-img" data-from="left:-1220px;top:0px;" data-to="left:0px;top:0px;" data-delay="100">
+                        <img src="/themes/custome/imcc/img/homeslider/11.jpg">
+                    </div>
+                    <div class="el right-img" data-from="right:-1150px;" data-to="right:0px;" data-delay="100">
+                        <img src="/themes/custome/imcc/img/homeslider/12.jpg">
+                    </div>
+                    <div class="el tit" data-from="opacity:0;" data-to="opacity:1;" data-delay="250">
+                        <div>
+                            Test Title<br />
+                            <span style="font-size: 14px; color: #d2ab67;">Lease now</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="bg-center-center">
+                    <div class="el left-img" data-from="left:-1220px;top:0px;" data-to="left:0px;top:0px;" data-delay="100">
+                        <img src="/themes/custome/imcc/img/homeslider/21.jpg">
+                    </div>
+                    <div class="el right-img" data-from="right:-1150px;" data-to="right:0px;" data-delay="100">
+                        <img src="/themes/custome/imcc/img/homeslider/22.jpg">
+                    </div>
+                    <div class="el tit" data-from="opacity:0;" data-to="opacity:1;" data-delay="250">
+                        <div>
+                            Test Title<br />
+                            <span style="font-size: 14px; color: #d2ab67;">Lease now</span>
+                        </div>
+                    </div>
+                </div>
+
+                {#slide 3 and 4 - be sorate dynamic va ba estefade az view-views-fields--slide_show#}
+
+                {{ page.slide_show }}
+
+
+            </div>
+            <div class="controllers">
+                <ul class="triggers">
+                    <li class="selected"></li>
+                    <li class=""></li>
+                    <li class=""></li>
+                    <li class=""></li>
+                </ul>
+            </div>
+        </div>
+
+        <!-- end slider -->
+    </div>
+
+
+    <div class="main main-raised">
+
+        <div class="section section-basic">
+
+            <div class="container">
+                <div class="content">
+                    <div class="row">
+                        <div class="title-area">
+                            <div class="separator separator-danger"><hr /></div>
+                            <h2>LATEST NEWS</h2>
+                            <div class="separator separator-danger"><hr /></div>
+                        </div>
+                    </div>
+                    
+
+                    <div class="team">
+                        <div class="row">
+                            <div class="col-md-12">
+                                <div class="row">
+                                    {{ page.latest_news }}
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+
+                </div>
+            </div>
+
+        </div>
+
+    </div>
+
+
+    <div class="space-50"></div>
+
+
+</div>
+
+
+
+
+</body>
+
+
+</html>

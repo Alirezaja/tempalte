@@ -1,0 +1,24 @@
+global-css:
+  css:
+    theme:
+      css/bootstrap.min.css: {}
+      css/material-kit.css: {}
+      css/demo.css: {}
+      css/slider.css: {}
+
+global-js:
+  js:
+       js/jquery.js: {}
+       js/bootstrap.min.js: {}
+       js/bootstrap-datepicker.js: {}
+       js/material.min.js : {}
+       js/src/uncompressed/TweenMax.js: {}
+       js/src/uncompressed/jquery.gsap.js: {}
+       js/slider.js: {}
+       js/jquery.bxslider.min.js: {}
+       js/s.js: {}
+
+
+
+
+
